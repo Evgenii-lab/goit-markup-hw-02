@@ -7,4 +7,46 @@
   --footer-links-color: rgba(255, 255, 255, 0.6);
   --black: #000;
   --black-rock: #2f303a;
+  --secondary-text-color: #212121;
+  --primary-bg-color-filter: #f5f4fa;
+  --prinary-font-family: "Roboto", sant-serif;
+  --secondary-font-family: "Raleway", sant-serif;
+}
+body {
+  width: 1600px;
+  background: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-bg-color);
+  font-family: var(--prinary-font-family);
+}
+.list {
+  list-style: none;
+}
+.hidden {
+  display: none;
+}
+.contacts {
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+  display: flex;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
 }

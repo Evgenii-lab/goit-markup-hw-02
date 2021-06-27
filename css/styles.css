@@ -10,16 +10,22 @@ body {
   color: var(--text-color);
 }
 .logo_studio {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.15;
-  font-style: normal;
---text-color: #212121;
-  letter-spacing: 0.03em;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
 }
 span {
-  --color-link: #2196f3;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
 }
 ul,
 li,
@@ -150,7 +156,4 @@ h2,
 }
 .besement_contacts {
   background-color: var(--color-font);
-}
-.logo_studio {
---text-color: #212121;
 }

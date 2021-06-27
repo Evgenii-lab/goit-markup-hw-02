@@ -10,28 +10,23 @@ body {
   color: var(--text-color);
 }
 .logo_studio {
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  font-style: normal;
+  color: var(--text-color);
+  letter-spacing: 0.03em;
 }
 span {
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--color-link);
+}
+a {
+list-style-type: none;
 }
 ul,
-li,
-a {
+li {
   text-decoration: none;
-  list-style-type: none;
 }
 .header-adress {
   font-weight: 500;
@@ -55,6 +50,7 @@ a {
   letter-spacing: 0.02em;
 }
 .header-adress,
+.image_txt {
   color: var(--color-tipe);
 }
 .main-title {
@@ -139,7 +135,7 @@ h2,
   cursor: pointer;
 }
 .hero {
-  background-color: #f5f4fa;
+background-color: #f5f4fa;
 }
 .image_name {
   font-weight: 500;
@@ -155,5 +151,6 @@ h2,
   letter-spacing: 0.03em;
 }
 .besement_contacts {
-  background-color: var(--color-font);
+background-color: var(--color-font);
 }
+.logo_studio

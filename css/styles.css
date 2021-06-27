@@ -35,10 +35,10 @@ a {
 }
 .test-link:hover,
 .header-adress:hover,
-.footer-adress:hover,
+.besement-adress:hover,
 .test-link:focus,
 .header-adress:focus,
-.footer-adress:focus {
+.besement-adress:focus {
   color: var(--color-link);
 }
 .test-link {
@@ -97,25 +97,25 @@ h2,
   line-height: 1.12;
   letter-spacing: 0.03em;
 }
-.footer-adress {
+.besement-adress {
   color: var(--main-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer_mail,
-.footer_tel {
+.besement_mail,
+.besement_tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer_mail:hover,
-.footer_tel:hover,
-.footer_mail:focus,
-.footer_tel:focus {
+.besement_mail:hover,
+.besement_tel:hover,
+.besement_mail:focus,
+.besement_tel:focus {
   color: var(--color-link);
 }
 .top-menu {
@@ -149,7 +149,7 @@ h2,
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-.footer-contacts {
+.besement_contacts {
   background-color: var(--color-font);
 }
 footer,

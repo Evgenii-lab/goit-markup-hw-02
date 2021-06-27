@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
-.web {
+.logo_studio {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -152,6 +152,6 @@ h2,
   background-color: var(--color-font);
 }
 footer,
-.web {
+.logo_studio {
   color: var(--main-color);
 }

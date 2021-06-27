@@ -1,16 +1,14 @@
 :root {
-  --text-color: #212121; /*коричневый*/
-  --color-link: #2196f3; /*голубой*/
-  --color-tipe: #757575; /*серый*/
-  --main-color: #ffffff; /*белый*/
-  --color-font: #2f303a; /*темно серый*/
+  --text-color: #212121;
+  --color-link: #2196f3;
+  --color-tipe: #757575;
+  --main-color: #ffffff;
+  --color-font: #2f303a;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
-
 .web {
   font-family: Raleway;
   font-weight: 700;
@@ -66,7 +64,7 @@ a {
 .title {
   background-color: var(--color-font);
 }
-.btn-order {
+.main_button {
   color: var(--main-color);
   background-color: var(--color-link);
   font-weight: 700;
@@ -93,7 +91,7 @@ h2,
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-.command {
+.image_txt {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
@@ -106,18 +104,18 @@ h2,
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-adress-mail,
-.footer-adress-tel {
+.footer_mail,
+.footer_tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-adress-mail:hover,
-.footer-adress-tel:hover,
-.footer-adress-mail:focus,
-.footer-adress-tel:focus {
+.footer_mail:hover,
+.footer_tel:hover,
+.footer_mail:focus,
+.footer_tel:focus {
   color: var(--color-link);
 }
 .top-menu {
@@ -131,14 +129,14 @@ h2,
   color: var(--main-color);
   background-color: var(--color-link);
 }
-.btn-order,
+.main_button,
 .top-menu {
   cursor: pointer;
 }
 .hero {
   background-color: #f5f4fa;
 }
-.picture-name {
+.image_name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;

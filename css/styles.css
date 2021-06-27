@@ -11,7 +11,7 @@ body {
   color: var(--text-color);
 }
 
-.logo {
+.web {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -20,7 +20,7 @@ body {
   color: var(--text-color);
   letter-spacing: 0.03em;
 }
-.logo-accent {
+span {
   color: var(--color-link);
 }
 ul,
@@ -86,7 +86,8 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-h2 .hero-title {
+h2,
+.hero-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -153,6 +154,7 @@ h2 .hero-title {
 .footer-contacts {
   background-color: var(--color-font);
 }
-footer .logo {
+footer,
+.web {
   color: var(--main-color);
 }

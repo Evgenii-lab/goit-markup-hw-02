@@ -63,7 +63,7 @@ a {
 .title {
   background-color: var(--color-font);
 }
-.main_button {
+.main_section {
   color: var(--main-color);
   background-color: var(--color-link);
   font-weight: 700;
@@ -128,7 +128,7 @@ h2,
   color: var(--main-color);
   background-color: var(--color-link);
 }
-.main_button,
+.main_section,
 .top-menu {
   cursor: pointer;
 }
